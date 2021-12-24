@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import react from 'react';
+import Card from './components/card/Card';
+import reactImg from "./assets/react.svg"
+import { categories } from './helper/data';
+
+console.log(categories);
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img id='reactImg' src={reactImg} alt="react img" />
+      <div className='languages'>
+        <h1>Languages</h1>
+        <div className='card-container'>
+        {categories.map((card, index)=>(
+                  <Card key={index} {...card}/>
+          ))}
+        </div>
+      
+      </div>
     </div>
   );
 }
