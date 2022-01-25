@@ -1,3 +1,7 @@
 https://nonslip19-software-language-card.netlify.app/
 
-![image](https://user-images.githubusercontent.com/88439875/147889788-324ea75d-20f4-4a99-9804-365aafdeb9d5.png)
+
+![language-card](https://user-images.githubusercontent.com/88439875/150966820-c8a62298-f68c-4db8-a663-e562071de480.gif)
+
+
+
